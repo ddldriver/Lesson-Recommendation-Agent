@@ -1,0 +1,31 @@
+# node_modules/
+# dist/
+# .env
+# *.log
+
+# 依赖与构建产物
+node_modules/
+dist/
+.vite/
+coverage/
+
+# 本地环境变量与密钥
+.env
+.env.*
+!.env.example
+Coze api key.txt
+*.pem
+*.key
+
+# 日志与缓存
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.cache/
+.pnpm-store/
+
+# 编辑器和系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
